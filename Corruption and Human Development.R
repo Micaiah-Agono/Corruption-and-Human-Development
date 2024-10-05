@@ -2,6 +2,7 @@
 #install.packages("data.table")
 
 library(ggplot2)
+library(ggthemes)
 library(data.table)
 
 df <- fread("C:/Users/user/OneDrive/Desktop/Materials/R/Project/Economist_Assignment_Data.csv",drop=1)
