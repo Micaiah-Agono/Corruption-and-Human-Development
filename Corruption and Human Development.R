@@ -5,7 +5,7 @@ library(ggplot2)
 library(ggthemes)
 library(data.table)
 
-df <- fread("C:/Users/user/OneDrive/Desktop/Materials/R/Project/Economist_Assignment_Data.csv",drop=1)
+df <- fread("Economist_Assignment_Data.csv",drop=1)
 
 #print(head(df))
 
