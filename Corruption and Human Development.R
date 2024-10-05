@@ -50,6 +50,7 @@ pl2 <- pl +
                      limits = c(0.2,1.0)) +
         
         ggtitle("Corruption and Human development")
+#print(pl2) #remove the "#" before the print function to print the non interactive version
 
 #MAKING IT INTERACTIVE
 gpl <- ggplotly(pl2)
